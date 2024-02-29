@@ -1,6 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
+  "extends": ["config:recommended"],
+  "platforms": [
+    {
+      "platform": "github",
+      "token": "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"
+    }
   ]
 }
